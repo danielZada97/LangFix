@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "LangFix",
+    "version": "1.0.0",
+    "description": "Fixing message's language on the internt using a simple right click, no longer need to rewrite text!",
+    "author": "Daniel Zada",
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "host_permissions": [
+        "<all_urls>",
+        "https://web.whatsapp.com/*"
+    ],
+    "icons": {
+        "48": "./48.png",
+        "128": "./128.png"
+    }
+}

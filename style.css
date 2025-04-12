@@ -1,0 +1,27 @@
+#suggestion-box {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-family: sans-serif;
+    max-width: 250px;
+}
+
+#suggestion-box .text {
+    margin-bottom: 8px;
+}
+
+#suggestion-box .buttons {
+    display: flex;
+    gap: 6px;
+    justify-content: flex-end;
+}
+
+#suggestion-box button {
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
